@@ -1,0 +1,96 @@
+body {
+  background: #f9e933;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+a:link {
+	text-decoration:none;
+	color:#000000;
+}
+a:visited {
+	text-decoration:none;
+	color:#000000;
+}
+
+header, main, footer {
+  min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+  max-width: 855px;
+  margin: auto;
+}
+
+header {
+  background: white;
+  overflow: auto;
+}
+
+header h1 {
+	margin-top:20px;
+  float: left;
+  width: 570px;
+  font-size:40px;
+}
+
+h2 {
+	font-size:24px;
+	font-style:italic;
+}
+
+h3 {
+	font-size:18px;
+	color: #FF00E3;
+	font-variant:small-caps;
+}
+
+h5 {
+	font-weight:bold;
+}
+header nav li {
+	padding-top:60px;
+	display:inline-block;
+	letter-spacing:.05em;
+}
+a {
+	padding-right:10px;
+	padding-left:10px;
+	text-transform:lowercase;
+}
+a:hover {
+	color:#ED0000;
+	text-transform:uppercase;
+}
+
+header nav {
+	margin-top:20px;
+  float: right;
+  width: 285px;
+}
+
+main {
+  background: white;
+  overflow: auto;
+}
+
+main .left {
+  float: left;
+  width: 570px;
+}
+
+main .right {
+  float: right;
+  width: 285px;
+}
+
+footer .left {
+	margin-top: 20px;
+  float: left;
+  width: 570px;
+}
+
+footer .sitemap {
+	margin-top: 20px;
+  float: right;
+  width: 285px;
+}
